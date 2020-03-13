@@ -1,7 +1,7 @@
 import requests
 import os
 
-url = "http://localhost:5000/"
+url = "http://localhost:5000/api/classification/classify"
 fin = open('example.yaml', 'rb')
 files = {'file': fin}
 
