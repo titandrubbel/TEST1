@@ -38,7 +38,12 @@
           state: present
           mode: 0755
 components:
+
+components:
+  - id: eclipse/che-theia/next
+    type: cheEditor
+    alias: theia-editor
   - type: chePlugin
     reference: >-
       https://raw.githubusercontent.com/radon-h2020/radon-plugin-registry/master/radon/radon-defect-predictor/latest/meta.yaml
-	alias: radon-dpt
+    alias: radon-dpt
