@@ -37,3 +37,8 @@
           group: users
           state: present
           mode: 0755
+components:
+  - type: chePlugin
+    reference: >-
+      https://raw.githubusercontent.com/radon-h2020/radon-plugin-registry/master/radon/radon-defect-predictor/latest/meta.yaml
+	alias: radon-dpt
